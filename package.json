@@ -1,0 +1,24 @@
+{
+  "name": "react-jsx-server-side",
+  "version": "0.0.1",
+  "description": "A simple demo showing how one can render a React application on the server side, without losing reactivity on the client",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": ["react", "reactjs", "jsx", "nodejs", "server", "demo"],
+  "author": "Juan M. Cañabate",
+  "license": "MIT",
+  "dependencies": {
+    "connect-browserify": "^3.2.1",
+    "express": "^4.8.5",
+    "node-jsx": "^0.11.0",
+    "react": "^0.11.1",
+    "reactify": "^0.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juanmac/react-jsx-server-side"
+  }
+}
