@@ -18,3 +18,11 @@ A simple demo showing how one can render a React application on the server side,
 
 This is a simple demo, don't use it in production.
 
+*Updates:*
+
+0.0.2 / 2014-08-30
+==================
+* move `<script id="stateStore />` tag from button.jsx to app.js file (entry point)
+* add `client/utils/index.js` module to hold some helpers
+* add LEAME.md documentación en español :)
+* add a History.md file
