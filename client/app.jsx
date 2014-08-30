@@ -3,6 +3,7 @@
 // Make global to use react-dev-tools in Chrome
 React = require('react');
 
+var safeStringify = require('./utils/index.js').safeStringify;
 var TheAmazingButton = require('./components/button.jsx');
 
 var App = module.exports = React.createClass({
@@ -11,7 +12,13 @@ var App = module.exports = React.createClass({
   },
 
   render: function() {
-    return <TheAmazingButton count={this.state.count}/>;
+    return <div>
+      <script type="application/json"
+        id="stateStore"
+        dangerouslySetInnerHTML={{__html: safeStringify(this.props)}}>
+      </script>
+      <TheAmazingButton count={this.state.count}/>
+    </div>;
   }
 })
 
