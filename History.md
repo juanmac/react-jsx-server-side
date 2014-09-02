@@ -1,4 +1,9 @@
 
+0.0.3-beta / 2014-09-02
+==================
+* add a middleware to clear `.jsx` files from `require` cache in every request
+* add `watch: true` to connect-browserify to re-bundle when editing
+
 0.0.2 / 2014-08-30
 ==================
 * move `script id="stateStore` html tag from button.jsx to app.js file (entry point)

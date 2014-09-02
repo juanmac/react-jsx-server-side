@@ -1,6 +1,6 @@
 {
   "name": "react-jsx-server-side",
-  "version": "0.0.2",
+  "version": "0.0.3-beta",
   "description": "A simple demo showing how one can render a React application on the server, without losing reactivity on the client",
   "main": "server.js",
   "scripts": {
