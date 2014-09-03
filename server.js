@@ -29,8 +29,8 @@ app.use('/bundle.js', browserify({
 /**
  * This middleware removes ".jsx" files from the `require` cache in a
  * per-request basis. React components can be then required, re-compiled and
- * re-rendered in every request so we can edit ".jsx" files and see the
- * changes as we go without having to restart the server.
+ * re-rendered in every request which mean that you can edit ".jsx" files and
+ * see the changes as you go without having to restart the server.
  * Use in development only.
  */
 app.use(function(req, res, next){

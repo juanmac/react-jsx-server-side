@@ -1,8 +1,9 @@
 
-0.0.3-beta / 2014-09-02
+0.0.3 / 2014-09-03
 ==================
 * add a middleware to clear `.jsx` files from `require` cache in every request
-* add `watch: true` to connect-browserify to re-bundle when editing
+* add `watch: true` option to connect-browserify to re-bundle when editing
+* update documentation (README.md and LEAME.md)
 
 0.0.2 / 2014-08-30
 ==================
