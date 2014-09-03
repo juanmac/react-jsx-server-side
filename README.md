@@ -23,6 +23,7 @@ A simple demo showing how one can render a [ReactJS](http://facebook.github.io/r
 * Don't use [node-jsx](https://github.com/petehunt/node-jsx), use [react-tools](https://www.npmjs.org/package/react-tools) to compile all your JSX code to JS before `require()` it.
 * Don't use [connect-browserify](https://github.com/andreypopp/connect-browserify) to generate the `bundle.js` on the server, instead use [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/) to compile, minify and compress everything in a previous step, serve the bundle as a simple static file.
 * On the server you should render the HTML markup just once at server startup, and NOT in every request.
+
 ## Last updates:
 
 **0.0.3 / 2014-09-03**
